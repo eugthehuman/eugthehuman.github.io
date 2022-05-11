@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Color Scheme
+blue = #181c62;
+gold = #8c6e4a;
+red = #d71440;
+turquoise = #32bcad;
+*/
+
+html, body {
+  font-family: raleway;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.nav {
+  white-space: nowrap;
+  overflow-x: auto
+}
+
+div.nav a {
+  display: inline-block;
+  float: none;
+}
+
+.col-0 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 4.166666%;
+  flex: 0 0 4.166666;
+  max-width: 4.166666%;
+}
+
+.col-md-0 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 4.166666%;
+  flex: 0 0 4.166666;
+  max-width: 4.166666%;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #181c62;
+}
+
+#weevo {
+  font-weight: 600;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-bottom: -2px;
+}
+
+.navbar {
+  padding: 0rem 1rem;
+  border-bottom: 2px solid #181c62;
+}
+
+.navbar-brand{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:50px;
+  width:100%;
+}
+
+.navbar-toggler {
+  border: 0px solid transparent;
+}
+
+.nav-tabs {
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+}
+
+.nav-tabs>li {
+  float: none;
+}
+
+.nav-tabs {
+  border-bottom: 0px;
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: -1px;
+  margin-right: 2px;
+}
+
+.nav-tabs .nav-link {
+  border: 3px;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+  border-bottom: 3px solid #181c62;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-bottom-color: rgba(24,28,98,0.80);
+  color: rgba(24,28,98,0.80);
+}
+
+.nav-tabs .nav-link.disabled {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #495057;
+  background-color: #fff;
+  border-bottom: 3px solid #181c62;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.header-gradient {
+  background: radial-gradient(#181c62, #0e1449);
+}
+
+.text-gradient {
+  background-position: center;
+  background-color: #8c6e4a;
+  background-image: linear-gradient(90deg, #8c6e4a, #8c6e4a, #8c6e4a, #b89142, #e5c595, #f9e3bb, #e5c595, #b89142, #8c6e4a, #8c6e4a, #8c6e4a);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;  
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, .h1 {
+  font-family: 'Barlow Condensed', sans-serif; 
+  font-size: 3rem;
+  font-weight: 300;
+  color: #8c6e4a;
+  text-transform: uppercase;
+}
+
+h2, .h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #8c6e4a;
+  text-transform: uppercase;
+}
+
+h3, .h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h4, .h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+h5, .h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+figcaption {
+  font-size: 0.7rem;
+  font-style: italic;
+  color: #696969;
+}
+
+.btn-primary {
+  background-color: rgba(24,28,98);
+  border-color: rgba(24,28,98);
+}
+
+.btn-primary:hover {
+  background-color: rgba(24,28,98,0.80);
+  border-color: rgba(24,28,98,0.80);
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(24,28,98,0.80);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: rgba(24,28,98,0.80);
+  border-color: rgba(24,28,98,0.80);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(24,28,98,0.80);
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+	
+p {
+	font-size: 1rem;
+	text-align: center;
+}
+
+.footer {
+  font-size: 1.1rem;
+}
+
+.fab, .far {
+  padding: 9px;
+  font-size: 18px;
+  width: 37px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fab:hover, .far:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-envelope {
+  color: white;
+  background: #0078d7;
+}
+
+.fa-facebook-f {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #bc2a8d;
+  color: white;
+} 
+
+.fa-youtube {
+  background: #ff0000;
+  color: white;
+}
+
+#wkwsci-logo {
+	margin: -6% 0% -3% -6.5%;
+}
+
+ul.images {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+ul.images li {
+  display: inline;
+}
+
+.images {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+ul.solo-image {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.solo-image {
+  overflow: hidden;
+}
+
+.solo {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: .1s ease;
+  background-color: #181c62;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-img:hover .overlay {
+  opacity: .8;
+}
+
+@media screen and (min-width: 0px) {
+	.dropdown-menu {
+	  text-align: center;
+	}
+	
+	.subcategories {
+	  text-align: center;
+	}
+	
+	ul.images, ul.solo-image {
+	  height: 240px;
+	}
+	
+	ul.images li img {
+	  height: 240px;
+	}
+	
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+	.dropdown-menu {
+	  text-align: center;
+	  left: 50%;
+	  transform: translateX(-50%);
+	}
+	
+	.subcategories {
+	  text-align: left;
+	}
+	
+	ul.images, ul.solo-image {
+	  height: 360px;
+	}
+	
+	ul.images li img {
+	  height: 360px;
+	}
+	
+}
+
+@media screen and (min-width: 1200px) {
+}
