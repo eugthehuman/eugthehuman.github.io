@@ -148,16 +148,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-family: 'glittenregular', serif; 
+  font-family: 'glitten_all_capsregular', serif; 
   font-size: 2.5rem;
   font-weight: 300;
   color: #8c6e4a;
   text-transform: uppercase;
-  padding-top: 10px;
 }
 
 h2, .h2 {
-  font-family: 'glittenregular', serif;
+  font-family: 'glitten_all_capsregular', serif;
   font-size: 2rem;
   font-weight: 300;
   color: #8c6e4a;

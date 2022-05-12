@@ -10,3 +10,12 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'glitten_all_capsregular';
+    src: url('glitten_all_caps-webfont.woff2') format('woff2'),
+         url('glitten_all_caps-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
